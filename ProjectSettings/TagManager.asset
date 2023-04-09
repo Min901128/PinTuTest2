@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - drag
+  - location1
+  - location2
+  - location3
+  - location4
+  - PinTu1
+  - PinTu2
+  - PinTu3
+  - PinTu4
   layers:
   - Default
   - TransparentFX
