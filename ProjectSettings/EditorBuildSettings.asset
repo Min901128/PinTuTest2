@@ -9,17 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 65fb5b3db86c21a438f9bd104b8c45fe
   - enabled: 1
-    path: Assets/Scenes/PinTu/PuzzleStart.unity
+    path: Assets/Scenes/PinTu/PinTu2X2.unity
     guid: 07fe91bea8545624e95015ba159fd5b5
   - enabled: 1
-    path: Assets/Scenes/PinTu/PinTuInstructions.unity
-    guid: cbccc1921ac88c64ba0ffcad805fa20d
+    path: Assets/Scenes/PinTu/PinTu3X3.unity
+    guid: 283acac47bac5754785abdf98d02f5d0
   - enabled: 1
     path: Assets/Scenes/PinTu/PinTuPracticeBeforeStart.unity
     guid: e63fdaf53eb09b745a8b57cc8f5b70d8
-  - enabled: 1
-    path: Assets/Scenes/Match/MatchInstructions.unity
-    guid: f7e10abfc79f6df44affd43f3bc25f7a
   - enabled: 1
     path: Assets/Scenes/Match/MatchPracticeBeforeStart.unity
     guid: 456c93a1aac08c64cb8c373fc30171a5

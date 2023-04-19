@@ -14,7 +14,9 @@ public class CheckAnswer : MonoBehaviour
     public GameObject Location3;
     public GameObject Location4;
 
-    //public GameObject SuccessPanel;
+    //因為原本為不可見，所以無法用find的方式尋找
+    public GameObject SuccessPanel;
+    public GameObject FailPanel;
 
     private int correct = 0;
 
@@ -27,8 +29,6 @@ public class CheckAnswer : MonoBehaviour
         Location2 = GameObject.Find("GameObject_Location2");
         Location3 = GameObject.Find("GameObject_Location3");
         Location4 = GameObject.Find("GameObject_Location4");
-
-    //    SuccessPanel = GameObject.Find("Panel_success");
 
         Vector3 position1 = PinTu1.transform.position;
         Vector3 position2 = PinTu2.transform.position;
@@ -60,10 +60,12 @@ public class CheckAnswer : MonoBehaviour
         if(correct == 4){
             Debug.Log("拼圖完全正確，恭喜通關");
 
-            //SuccessPanel.SetActive(true);
+            SuccessPanel.SetActive(true);
         }
         else{
             Debug.Log("拼圖不正確，再接再厲");
+
+            FailPanel.SetActive(true);
         }
         
         /*Debug.Log("pintu1 position: " + position1);
