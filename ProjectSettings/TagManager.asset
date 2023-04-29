@@ -13,6 +13,16 @@ TagManager:
   - PinTu2
   - PinTu3
   - PinTu4
+  - PinTu5
+  - PinTu6
+  - PinTu7
+  - PinTu8
+  - PinTu9
+  - location5
+  - location6
+  - location7
+  - location8
+  - location9
   layers:
   - Default
   - TransparentFX

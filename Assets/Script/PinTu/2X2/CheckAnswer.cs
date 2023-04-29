@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class CheckAnswer : MonoBehaviour
 {
-    public GameObject PinTu1;
-    public GameObject PinTu2;
-    public GameObject PinTu3;
-    public GameObject PinTu4;
-    public GameObject Location1;
-    public GameObject Location2;
-    public GameObject Location3;
-    public GameObject Location4;
+    private GameObject PinTu1;
+    private GameObject PinTu2;
+    private GameObject PinTu3;
+    private GameObject PinTu4;
+    private GameObject Location1;
+    private GameObject Location2;
+    private GameObject Location3;
+    private GameObject Location4;
 
     //因為原本為不可見，所以無法用find的方式尋找
     public GameObject SuccessPanel;
@@ -38,20 +38,20 @@ public class CheckAnswer : MonoBehaviour
         Vector3 positionL2 = Location2.transform.position;
         Vector3 positionL3 = Location3.transform.position;
         Vector3 positionL4 = Location4.transform.position;
-
-        if(position1.x < 0 && position1.y > 0){
+ 
+        if(position1.x < position2.x && position1.y > position3.y){
             //Debug.Log("拼圖1正確");
             correct++;
         }
-        if(position2.x > 0 && position2.y > 0){
+        if(position2.x > position1.x && position2.y > position4.y){
             //Debug.Log("拼圖2正確");
             correct++;
         }
-        if(position3.x < 0 && position3.y < 0){
+        if(position3.x < position4.x && position3.y < position1.y){
             //Debug.Log("拼圖3正確");
             correct++;
         }
-        if(position4.x > 0 && position4.y < 0){
+        if(position4.x > position3.x && position4.y < position2.y){
             //Debug.Log("拼圖4正確");
             correct++;
         }
