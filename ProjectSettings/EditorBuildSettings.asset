@@ -6,16 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/SceneForPractice.unity
+    guid: dc0c5622687ae1442898f1bec54a3808
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 65fb5b3db86c21a438f9bd104b8c45fe
   - enabled: 1
-    path: Assets/Scenes/PinTu/PinTu2X2.unity
+    path: Assets/Scenes/PinTu/PreviousVersion/PinTu2X2.unity
     guid: 07fe91bea8545624e95015ba159fd5b5
   - enabled: 1
-    path: Assets/Scenes/PinTu/PinTu3X3.unity
+    path: Assets/Scenes/PinTu/PreviousVersion/PinTu3X3.unity
     guid: 283acac47bac5754785abdf98d02f5d0
   - enabled: 1
-    path: Assets/Scenes/PinTu/PinTuPracticeBeforeStart.unity
+    path: Assets/Scenes/PinTu/PreviousVersion/PinTu4X4.unity
+    guid: dce84ccb929275f44bf2729bf1905f69
+  - enabled: 1
+    path: Assets/Scenes/PinTu/PreviousVersion/PinTuPracticeBeforeStart.unity
     guid: e63fdaf53eb09b745a8b57cc8f5b70d8
   - enabled: 1
     path: Assets/Scenes/Match/MatchPracticeBeforeStart.unity
@@ -23,6 +29,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Match/MatchStart.unity
     guid: c34a6a7c0528f5f41a90012d2c3b0d37
+  - enabled: 1
+    path: Assets/Scenes/PinTu/PreviousVersion/PinTu5X5.unity
+    guid: 58f08af18eebef74a85d618ca9e8b17a
+  - enabled: 1
+    path: Assets/Scenes/PinTu/NewVersion/PinTu2X2_New.unity
+    guid: 8cb3b2330921d7c48acc262e01c58be5
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c932c7bf3cc38d346ac70f46b686339d, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 57fba76df957b514d84f2c8c96f3d2cd, type: 2}

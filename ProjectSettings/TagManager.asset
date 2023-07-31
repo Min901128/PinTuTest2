@@ -23,6 +23,43 @@ TagManager:
   - location7
   - location8
   - location9
+  - PinTu10
+  - PinTu11
+  - PinTu12
+  - PinTu13
+  - PinTu14
+  - PinTu15
+  - PinTu16
+  - location10
+  - location11
+  - location12
+  - location13
+  - location14
+  - location15
+  - location16
+  - PinTu17
+  - PinTu18
+  - PinTu19
+  - PinTu20
+  - PinTu21
+  - PinTu22
+  - PinTu23
+  - PinTu24
+  - PinTu25
+  - location17
+  - location18
+  - location19
+  - location20
+  - location21
+  - location22
+  - location23
+  - location24
+  - location25
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
   layers:
   - Default
   - TransparentFX
