@@ -35,6 +35,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PinTu/NewVersion/PinTu3X3_New.unity
     guid: f08dfe9eba915834f843e31d31fc2ad2
+  - enabled: 1
+    path: Assets/Scenes/PinTu/NewVersion/PinTu4X4_New.unity
+    guid: d54ba30a97ff68f438cacccce27246c4
+  - enabled: 1
+    path: Assets/Scenes/PinTu/NewVersion/PinTu5X5_New.unity
+    guid: 4b4e34947920c5849b05274cea43e169
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c932c7bf3cc38d346ac70f46b686339d, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 57fba76df957b514d84f2c8c96f3d2cd, type: 2}
