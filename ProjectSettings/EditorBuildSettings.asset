@@ -21,12 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/PinTu/PreviousVersion/PinTuPracticeBeforeStart.unity
     guid: e63fdaf53eb09b745a8b57cc8f5b70d8
   - enabled: 1
-    path: Assets/Scenes/Match/MatchPracticeBeforeStart.unity
-    guid: 456c93a1aac08c64cb8c373fc30171a5
-  - enabled: 1
-    path: Assets/Scenes/Match/MatchStart.unity
-    guid: c34a6a7c0528f5f41a90012d2c3b0d37
-  - enabled: 1
     path: Assets/Scenes/PinTu/PreviousVersion/PinTu5X5.unity
     guid: 58f08af18eebef74a85d618ca9e8b17a
   - enabled: 1
@@ -47,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PinTu/NewVersion/SpacePinTu3X3.unity
     guid: 39016ad86a34b6540b78f127dadfc004
+  - enabled: 1
+    path: Assets/Scenes/Match/Match.unity
+    guid: f23be6c5fae97fa43913954139b4b77f
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c932c7bf3cc38d346ac70f46b686339d, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 57fba76df957b514d84f2c8c96f3d2cd, type: 2}

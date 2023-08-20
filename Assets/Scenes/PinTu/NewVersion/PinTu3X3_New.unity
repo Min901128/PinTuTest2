@@ -2130,6 +2130,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4503932811191454, guid: 80cec532ae7b6c1429d0f5494e7dbd8c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.19091
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503932811191454, guid: 80cec532ae7b6c1429d0f5494e7dbd8c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.19091
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503932811191454, guid: 80cec532ae7b6c1429d0f5494e7dbd8c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.19091
+      objectReference: {fileID: 0}
     - target: {fileID: 23891613043013534, guid: 80cec532ae7b6c1429d0f5494e7dbd8c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2410,7 +2422,7 @@ MonoBehaviour:
   iconSprite: {fileID: 0}
   iconQuadRenderer: {fileID: 349123714}
   iconQuadTextureNameID: _MainTex
-  iconQuadTexture: {fileID: 2800000, guid: c6c1f5f0c9affd34bae08914313c341a, type: 3}
+  iconQuadTexture: {fileID: 2800000, guid: 02299eb96d413fc40bf2c4384840a035, type: 3}
   defaultButtonQuadMaterial: {fileID: 0}
   iconSet: {fileID: 11400000, guid: ab3e25f67e968e442bdba24044cc61f0, type: 2}
   defaultIconSet: {fileID: 0}
