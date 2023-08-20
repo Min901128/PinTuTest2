@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9260242c71f6d554a976d8680554644e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeID: 1
+  cubeID: 10
 --- !u!1 &111205087
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,7 +764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9260242c71f6d554a976d8680554644e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeID: 4
+  cubeID: 40
 --- !u!1 &273685565
 GameObject:
   m_ObjectHideFlags: 0
@@ -1429,7 +1429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9260242c71f6d554a976d8680554644e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeID: 2
+  cubeID: 20
 --- !u!1 &764931128
 GameObject:
   m_ObjectHideFlags: 0
@@ -1612,7 +1612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9260242c71f6d554a976d8680554644e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeID: 5
+  cubeID: 50
 --- !u!1 &894657826
 GameObject:
   m_ObjectHideFlags: 0
@@ -2096,6 +2096,7 @@ GameObject:
   - component: {fileID: 1500656986}
   - component: {fileID: 1500656985}
   - component: {fileID: 1500656992}
+  - component: {fileID: 1500656993}
   m_Layer: 0
   m_Name: Left1
   m_TagString: Untagged
@@ -2263,6 +2264,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cubeID: 1
+--- !u!114 &1500656993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500656984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1410eac1ae94b4d4492a09cc368e152c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states: {fileID: 11400000, guid: 5eac1712038236e4b8ffdb3893804fe1, type: 2}
+  InputActionId: 0
+  isGlobal: 0
+  Dimensions: 1
+  dimensionIndex: 0
+  startDimensionIndex: 0
+  CanSelect: 1
+  CanDeselect: 1
+  voiceCommand: 
+  voiceRequiresFocus: 1
+  profiles:
+  - Target: {fileID: 0}
+    Themes:
+    - {fileID: 0}
+  OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1500656984}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Events: []
+  resetOnDestroy: 0
+  enabledOnStart: 1
 --- !u!1 &1907605932
 GameObject:
   m_ObjectHideFlags: 0
@@ -2628,7 +2673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9260242c71f6d554a976d8680554644e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeID: 3
+  cubeID: 30
 --- !u!1 &2036592164
 GameObject:
   m_ObjectHideFlags: 0
