@@ -61,7 +61,7 @@ public class SpacePinTuRandomLocation3X3 : MonoBehaviour
         rotationAngles[0] = Quaternion.Euler(0f, -45f, 0f);
         rotationAngles[1] = Quaternion.Euler(0f, 90f, 0f);
         rotationAngles[2] = Quaternion.Euler(0f, -120f, 0f);
-        rotationAngles[3] = Quaternion.Euler(0f, -10f, 0f);
+        rotationAngles[3] = Quaternion.Euler(0f, -50f, 0f);
         rotationAngles[4] = Quaternion.Euler(0f, 40f, 0f);
         rotationAngles[5] = Quaternion.Euler(0f, -70f, 0f);
         rotationAngles[6] = Quaternion.Euler(0f, -145f, 0f);

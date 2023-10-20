@@ -6,44 +6,29 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 65fb5b3db86c21a438f9bd104b8c45fe
+    path: Assets/SceneForExperiment/Person8/Menu.unity
+    guid: 08288bba085779f418f1069dc10ad6f3
   - enabled: 1
-    path: Assets/Scenes/PinTu/PreviousVersion/PinTu2X2.unity
-    guid: 07fe91bea8545624e95015ba159fd5b5
+    path: Assets/SceneForExperiment/Person8/PinTu/PinTu2X2.unity
+    guid: ec6c6464293d6fc418cc380b2a400c86
   - enabled: 1
-    path: Assets/Scenes/PinTu/PreviousVersion/PinTu3X3.unity
-    guid: 283acac47bac5754785abdf98d02f5d0
+    path: Assets/SceneForExperiment/Person8/PinTu/PinTu3X3.unity
+    guid: f089007f4bcc33145a17745cf6639521
   - enabled: 1
-    path: Assets/Scenes/PinTu/PreviousVersion/PinTu4X4.unity
-    guid: dce84ccb929275f44bf2729bf1905f69
+    path: Assets/SceneForExperiment/Person8/PinTu/PinTu4X4.unity
+    guid: 68509900a750ab44cbd3656888f54382
   - enabled: 1
-    path: Assets/Scenes/PinTu/PreviousVersion/PinTuPracticeBeforeStart.unity
-    guid: e63fdaf53eb09b745a8b57cc8f5b70d8
+    path: Assets/SceneForExperiment/Person8/PinTu/PinTu5X5.unity
+    guid: 66cef7db29d31b44783738f7982dda86
   - enabled: 1
-    path: Assets/Scenes/PinTu/PreviousVersion/PinTu5X5.unity
-    guid: 58f08af18eebef74a85d618ca9e8b17a
+    path: Assets/SceneForExperiment/Person8/PinTu/SpacePinTu2X2.unity
+    guid: e74ddca9d00901541915568201fe06cf
   - enabled: 1
-    path: Assets/Scenes/PinTu/NewVersion/PinTu2X2_New.unity
-    guid: 8cb3b2330921d7c48acc262e01c58be5
+    path: Assets/SceneForExperiment/Person8/PinTu/SpacePinTu3X3.unity
+    guid: 0290e18e9503a81448d467923a2cdd73
   - enabled: 1
-    path: Assets/Scenes/PinTu/NewVersion/PinTu3X3_New.unity
-    guid: f08dfe9eba915834f843e31d31fc2ad2
-  - enabled: 1
-    path: Assets/Scenes/PinTu/NewVersion/PinTu4X4_New.unity
-    guid: d54ba30a97ff68f438cacccce27246c4
-  - enabled: 1
-    path: Assets/Scenes/PinTu/NewVersion/PinTu5X5_New.unity
-    guid: 4b4e34947920c5849b05274cea43e169
-  - enabled: 1
-    path: Assets/Scenes/PinTu/NewVersion/SpacePinTu2X2.unity
-    guid: 3dfd3e485e8490342bf0e2527b295e9a
-  - enabled: 1
-    path: Assets/Scenes/PinTu/NewVersion/SpacePinTu3X3.unity
-    guid: 39016ad86a34b6540b78f127dadfc004
-  - enabled: 1
-    path: Assets/Scenes/Match/Match.unity
-    guid: f23be6c5fae97fa43913954139b4b77f
+    path: Assets/SceneForExperiment/Person8/Match/Match.unity
+    guid: 9c0597fccff7ee7428191d4271d30148
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c932c7bf3cc38d346ac70f46b686339d, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 57fba76df957b514d84f2c8c96f3d2cd, type: 2}
