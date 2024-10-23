@@ -20,6 +20,7 @@ public class MatchCheck : MonoBehaviour
 
     public TimerForMatch timerForMatch;
 
+    public GameObject RetrunButton;
     string FirstTag;
     string SecondTag;
     string YourTag;
@@ -38,6 +39,7 @@ public class MatchCheck : MonoBehaviour
         if(Finish == 5){
             FinishPanel.SetActive(true);
             timerForMatch.StopTimer();
+            RetrunButton.SetActive(false);
         }
     }
 

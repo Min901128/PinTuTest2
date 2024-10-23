@@ -8,7 +8,7 @@ public class Practice_LV2 : MonoBehaviour
     public GameObject sphere;
     public GameObject capsule;
     public GameObject Practice_Level2_FinishPanel;
-    public GameObject Hint;
+   // public GameObject Hint;
 
     private Vector3 CubeOriginalPosition;
     private Vector3 SphereOriginalPosition;
@@ -39,7 +39,7 @@ public class Practice_LV2 : MonoBehaviour
 
         if(obj1 && obj2 && obj3){
             Practice_Level2_FinishPanel.SetActive(true);
-            Hint.SetActive(false);
+            //Hint.SetActive(false);
         }
     }
 

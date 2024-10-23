@@ -8,6 +8,8 @@ public class IsReturnButtonPressed : MonoBehaviour
     public GameObject StartPanel;
     public GameObject VideoButton;
     public GameObject PinTUChoosePanel;
+    public GameObject Image01;
+    public GameObject Image02;
     private const string IsPressed = "IsPressed";
     void Start()
     {
@@ -19,6 +21,8 @@ public class IsReturnButtonPressed : MonoBehaviour
             StartPanel.SetActive(false);
             VideoButton.SetActive(false);
             PinTUChoosePanel.SetActive(true);
+            Image01.SetActive(false);
+            Image02.SetActive(true);
 
             PlayerPrefs.SetInt("IsPressed", 0);
             PlayerPrefs.Save();

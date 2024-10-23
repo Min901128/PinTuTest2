@@ -5,21 +5,20 @@ using UnityEngine.UI;
 
 public class Practice_LV1 : MonoBehaviour
 {
-    public Text Hint;
-    public GameObject Hint_GameObj;
+    public GameObject Hint;
+    //public GameObject Hint_GameObj;
     public GameObject Practice_Level1_FinishPanel;
 
     int count = 1;
 
     public void JudgeIsPress(GameObject Button){
-        Hint_GameObj.SetActive(false);
+        Hint.SetActive(false);
         if(Button.tag == count.ToString()){
             count++;
             Button.SetActive(false);
         }
         else{
-            Hint_GameObj.SetActive(true);
-            Hint.text = "請按照順序點擊!!";
+            Hint.SetActive(true);
         }
     }
 
